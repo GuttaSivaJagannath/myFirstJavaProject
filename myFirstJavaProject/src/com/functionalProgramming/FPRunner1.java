@@ -27,7 +27,8 @@ public class FPRunner1 {
 		// we are sending the function code to forEach
 		// *we know function is the first class citizen*
 		// in this we are sending function as a parameter to another function
-		// above ( -> )=lamda Expressiion
+		// above ( -> ) is the lamda Expressiion
+		// lamda expression is nothing but shortcut for creating a function
 		}
 
 }
