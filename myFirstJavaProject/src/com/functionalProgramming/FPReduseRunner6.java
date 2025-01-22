@@ -5,7 +5,8 @@ import java.util.List;
 public class FPReduseRunner6 {
 
 	public static void main(String[] args) {
-		// in lamda experssion we can write a multiple lines of code as well
+		// in lamda experssion we can write a multiple lines of code as well by using
+		// braces
 		List<Integer> rollNo = List.of(2,4,5,6,7,8,5,3,2,5,6,7,8,8,8,5,3,2,1,4,67);
 
 //		int oddNum = rollNo.stream().filter(number -> number % 2 == 1).reduce(0,
