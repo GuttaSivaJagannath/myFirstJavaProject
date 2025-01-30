@@ -13,7 +13,7 @@ public class FPReduseRunner4 {
 
 	private static void printFPReduse(List<Integer> numbers) {
 		int sum = numbers.stream().reduce(0, (number1, number2) -> number1 + number2);
-		System.out.println("FP : " + sum);
+		System.out.println("FP Sum: " + sum);
 	}
 
 	static int sum1 = 0;
@@ -22,7 +22,7 @@ public class FPReduseRunner4 {
 			// the changing of the value of sum is called the "mutations"
 			sum1 += sumof; // here the sumValue is changing
 		}
-		System.out.println("Normal sum : " + sum1);
+		System.out.println("Normal Sum : " + sum1);
 	}
 
 }

@@ -15,8 +15,11 @@ public class FPMaxCompare12 {
 		System.out.println(maxValue);// Output - Optional[89]
 
 
-		// in this case we can check weather the value is present or not by using
-		// isPresent() method, that which give the boolean expression
+		// in this case we can check weather the value is present or not, by using
+		// isPresent() method, that which it gives the boolean expression wheather its
+		// true or not
+		// Optional is presenting because if there is no value to give output, it will
+		// give empty
 
 		boolean maxValue1 = List.of(12, 34, 54, 12, 66, 89, 76, 34, 66).stream()
 				.max((n1, n2) -> Integer.compare(n1, n2)).isPresent();
@@ -24,7 +27,7 @@ public class FPMaxCompare12 {
 
 
 		// in this case, if it is true, we can use the get() method to give the maxValue
-		// in the list
+		// in the list without presenting Optional
 
 		Integer maxValue2 = List.of(12, 34, 54, 12, 66, 89, 76, 34, 66).stream()
 				.max((n1, n2) -> Integer.compare(n1, n2)).get();
