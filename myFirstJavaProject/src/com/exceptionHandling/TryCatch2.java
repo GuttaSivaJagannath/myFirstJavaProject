@@ -25,8 +25,9 @@ public class TryCatch2 {
 			String str = null;
 		System.out.println(str.length());
 		}catch(Exception ex) {
-			ex.printStackTrace();// it will print what is the exception, because if somebody what to know what is
-									// the exception there must be a printing of exeception
+			ex.printStackTrace();// it will print what is the exception, because if
+									// somebody what to know what is the exception there must be a printing of
+									// exeception
 		}
 	}
 }
