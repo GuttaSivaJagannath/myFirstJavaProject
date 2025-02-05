@@ -1,5 +1,6 @@
 package com.exceptionHandling;
 
+//
 class Amount {
 	private String currency;
 	private int amount;

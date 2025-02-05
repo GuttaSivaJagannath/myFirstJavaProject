@@ -2,6 +2,7 @@ package com.exceptionHandling;
 
 import java.util.Scanner;
 
+//finally6
 public class Finally6 {
 
 	// to overcome the problrms like before Class(Finally5), now are going to solve

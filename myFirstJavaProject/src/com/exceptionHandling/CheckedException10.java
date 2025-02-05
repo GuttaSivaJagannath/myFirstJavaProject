@@ -1,5 +1,6 @@
 package com.exceptionHandling;
 
+
 public class CheckedException10 {
 
 	// lets try with another example by throwing RuntimeException

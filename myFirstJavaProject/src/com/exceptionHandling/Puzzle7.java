@@ -1,6 +1,6 @@
 package com.exceptionHandling;
 
-// puzzle
+// puzzle7
 
 // Q : will this code compile without catch block?
 

@@ -1,5 +1,5 @@
 package com.exceptionHandling;
-
+//
 //now the question is which type of exception we want to force to handle it and
 // which type of exceptions we want to ignore
 

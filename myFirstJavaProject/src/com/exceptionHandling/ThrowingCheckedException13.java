@@ -9,14 +9,14 @@ class Amounts {
 		this.amount = amount;
 	}
 
-	public void add(Amounts that) throws Exception// here we can take object which is a class type
+	public void add(Amounts that) throws Exception// here we can take object which is a class type(Amount that)
 	{
 		if (!this.currency.equals(that.currency)) {// if we didnt throw this Exception, the output will give like USD
 													// instead of error for EUV
 
 			// here it is this Not Unchecked exception that is why we want to throws
 			// Exception to the method.
-			// Unchecked exception - which is not a Runtime Exception or subclass of Runtime
+			// Checked exception - which is not a Runtime Exception or subclass of Runtime
 			// Exception.
 			throw new Exception(
 					"Hey Siva It Is Wrong..Currency not matched" + " " + this.currency + "&" + " " + that.currency);
