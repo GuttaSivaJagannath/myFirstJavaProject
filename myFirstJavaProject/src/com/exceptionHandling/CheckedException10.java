@@ -27,7 +27,8 @@ public class CheckedException10 {
 		// sometimes this type of exception will force you to handle it by using try
 		// catch block or by using throws
 
-		// someOtherMethod();
+		// someOtherMethod(); (It is the checked exception, if we uncomment this line,
+		// we must add declaration to the specific method main)
 
 		// the reason is because that we want to know from the next class.... Go to the
 		// next class

@@ -9,7 +9,8 @@ class Amounts {
 		this.amount = amount;
 	}
 
-	public void add(Amounts that) throws Exception// here we can take object which is a class type(Amount that)
+	public void add(Amounts that) throws Exception// here we are taking an object through parameter which is a class
+													// type(Amounts that)
 	{
 		if (!this.currency.equals(that.currency)) {// if we didnt throw this Exception, the output will give like USD
 													// instead of error for EUV

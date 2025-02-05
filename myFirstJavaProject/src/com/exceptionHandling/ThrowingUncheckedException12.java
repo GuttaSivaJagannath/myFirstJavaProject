@@ -10,7 +10,7 @@ class Amount {
 		this.amount = amount;
 	}
 
-	public void add(Amount that)// here we can take object which is a class type
+	public void add(Amount that)// here we are taking an object through parameter which is a class type
 	{
 		if (!this.currency.equals(that.currency)) {// if we didnt throw this Exception, the output will give like USD
 													// instead of error for EUV
