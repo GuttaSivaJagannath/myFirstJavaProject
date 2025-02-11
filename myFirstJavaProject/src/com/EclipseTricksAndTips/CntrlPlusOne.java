@@ -8,7 +8,7 @@ public class CntrlPlusOne {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		// Now If we take BigDecimal, ctrl+1 is used for importing this BigDecimal
+		// Now, If we take BigDecimal, ctrl+1 is used for importing this BigDecimal
 		BigDecimal bd = new BigDecimal(25);
 
 		// when you are throwing an exception also ctrl+1 is used to throw exception

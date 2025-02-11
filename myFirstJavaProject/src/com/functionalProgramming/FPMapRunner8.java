@@ -8,6 +8,9 @@ public class FPMapRunner8 {
 		List<Integer> number = List.of(14, 67, 98, 34, 56, 0, 1, 1, 2, 4, 3, 2, 4, 3, 0, 9, 88, 77, 77, 88);
 		// before mapping the elements
 		System.out.println("Before mapping the elements : ");
+		// distinct() - filtering out duplicate elements from a stream
+		// sorted() - sort elements in a stream according to natural order or a custom
+		// comparator.
 		number.stream().distinct().sorted().forEach(e -> System.out.print(e + " "));
 		System.out.println();
 		System.out.println();
